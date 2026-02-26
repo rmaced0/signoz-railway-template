@@ -9,7 +9,7 @@
   <custom_settings_prefixes></custom_settings_prefixes>
   <dictionaries_config>*_dictionary.xml</dictionaries_config>
   <user_defined_executable_functions_config>*function.xml</user_defined_executable_functions_config>
-  <user_scripts_path>/var/lib/clickhouse/user_scripts/</user_scripts_path>
+  <user_scripts_path>/etc/clickhouse-server/user_scripts/</user_scripts_path>
   <http_port>8123</http_port>
   <tcp_port>9000</tcp_port>
   <mysql_port>9004</mysql_port>
