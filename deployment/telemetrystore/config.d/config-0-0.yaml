@@ -1,5 +1,10 @@
 asynchronous_metric_log:
   ttl: event_date + INTERVAL 1 DAY DELETE
+background_buffer_flush_schedule_pool_size: 4
+background_distributed_schedule_pool_size: 8
+background_fetches_pool_size: 8
+background_message_broker_schedule_pool_size: 4
+background_schedule_pool_size: 64
 dictionaries_config: '*_dictionary.xml'
 display_name: cluster
 distributed_ddl:
